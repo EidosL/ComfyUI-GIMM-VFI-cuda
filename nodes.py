@@ -228,6 +228,12 @@ class GIMMVFI:
         flow_tensors = torch.zeros(1, 64, 64, 3, dtype=torch.float32)
         return (image_tensors, flow_tensors)
 
-NODE_CLASS_MAPPINGS = {"GIMMVFILoader": GIMMVFILoader, "GIMMVFI": GIMMVFI}
-NODE_DISPLAY_NAME_MAPPINGS = {"GIMMVFILoader": "GIMM-VFI Loader (Fortress)", "GIMMVFI": "GIMM-VFI Interpolate (Fortress)"}
+NODE_CLASS_MAPPINGS = {
+    "GIMMVFILoader": GIMMVFILoader,
+    "GIMMVFI": GIMMVFI
+}
 
+NODE_DISPLAY_NAME_MAPPINGS = {
+    "GIMMVFILoader": "GIMM-VFI Loader (Optimized)",
+    "GIMMVFI": "GIMM-VFI Interpolate (Optimized)"
+}
