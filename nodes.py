@@ -1,14 +1,3 @@
-# ComfyUI-GIMM-VFI
-#
-# ComfyUI custom node for GIMM-VFI
-#
-# https://github.com/kijai/ComfyUI-GIMM-VFI
-#
-# ---
-# Original code by kijai
-# Fortress Edition by Linus Architect (CTO) - Optimized for Performance, Adaptability, and Stability
-# ---
-
 import os
 import sys
 
